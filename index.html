@@ -11,36 +11,50 @@
   </head>
   <body>
     
-   <div class="container text-center mt-5 box">    
-      <div class="row justify-content-between align-items-center lead ">
-        <div class="col-4">
-          <h2>Joueur 1</h2>
-          <div class="score-joueurs">
-            <p>Score</p>
-            <p class="score" id="score-1">0</p>
+    <div class="container text-center mt-5 box">  
+      <button class="btn btn-light mt-4">Rejouer</button>
+
+        <div class="row justify-content-between lead pt-5">
+          <div class="col-4">
+            <h2>Joueur 1</h2>
+            <div class="player-score" id="score-1">72</div>                    
           </div>
           
-        </div>
-        
-        <div class="col-2">
-          <button class="btn btn-light mt-3">Rejouer</button>
-          <button class="btn btn-warning mt-3 mb-5">Roulez les dés !</button>
-          <button class="btn btn-info mt-3 mb-5">Garder</button>
-          <input type="text" id="scoreFinal" placeholder="Final score" class="text-center lead">
-        </div>
+          <div class="col-4">
 
-        <div class="col-4">
-          <h2>Joueur 2</h2>
-          <div class="score-joueurs">
-            <p>Score</p>
-            <p class="score" id="score-2">0</p>
           </div>
-          
+
+          <div class="col-4">
+            <h2>Joueur 2</h2>
+            <div class="player-score" id="score-1">72</div>                
+          </div>
+        </div>
+
+        <div class="row mt-3 lead">
+          <div class="col-4">
+            <div class="score-joueurs">
+              <p>Score</p>
+              <p class="score" id="score-1">0</p>
+            </div>  
+          </div>
+
+          <div class="col-4">
+            <div><button class="btn btn-warning">Roulez les dés !</button></div>
+            <div><button class="btn btn-info">Enregistrer</button></div>   
+          </div>
+
+          <div class="col-4">
+            <div class="score-joueurs">
+              <p>Score</p>
+              <p class="score" id="score-2">0</p>
+            </div>  
+
+          </div>
+
 
         </div>
 
-
-      </div>
+      <input type="text" id="scoreFinal" placeholder="Final score" class="text-center lead mt-3">
 
    </div>
 

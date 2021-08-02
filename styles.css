@@ -4,12 +4,15 @@
 
 }
 
+.score{
+  height: 100px;
+}
+
 .score-joueurs{
   background-color: #d9dbeb;
   color: #fff;
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
-  padding: 12px;
   text-align: center;
 }
 
@@ -17,7 +20,14 @@
 .player-current-score {
   font-size: 40px;
 }
+.player-score {
+  text-align: center;
+  font-size: 80px;
+  color: #EB4D4D;
+  margin-bottom: 130px;
+}
 
 #scoreFinal{
   width: 180px;
 }
+
