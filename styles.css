@@ -17,3 +17,7 @@
 .player-current-score {
   font-size: 40px;
 }
+
+#scoreFinal{
+  width: 180px;
+}
