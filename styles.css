@@ -1,0 +1,19 @@
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 800px;
+
+}
+
+.score-joueurs{
+  background-color: #d9dbeb;
+  color: #fff;
+  width: 40%;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+}
+
+
+.player-current-score {
+  font-size: 40px;
+}
