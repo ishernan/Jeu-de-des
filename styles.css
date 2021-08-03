@@ -12,12 +12,12 @@ body {
 
 }
 
-.score{
+.points{
   height: 100px;
 }
 
-.score-joueurs{
-  background-color: #d9dbeb;
+.points-joueurs{
+  background-color: #fd4857;
   color: #fff;
   width: 50%;
   margin: 0 auto;
@@ -28,7 +28,7 @@ body {
 .player-current-score {
   font-size: 40px;
 }
-.player-score {
+.joueur-score {
   text-align: center;
   font-size: 80px;
   color: #EB4D4D;
@@ -40,13 +40,18 @@ body {
 }
 
 .de {
-  height: 150px;
+  height: 120px;
   display: block;
   margin: auto;
-  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-
-
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.40);
 }
+
+.de1{
+  transform: rotate(10deg); /* Équivalent à rotateZ(45deg) */
+  }
+.de2{
+  transform: rotate(20deg); /* Équivalent à rotateZ(45deg) */
+   }
 
 
 .compteur {
