@@ -22,6 +22,7 @@ body {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+
 }
 
 
@@ -54,16 +55,25 @@ body {
    }
 
 
-.compteur {
+   
+  .ombre:hover{
+    box-shadow: 10px 10px 5px 5px rgb(163, 162, 162);
+    border-style:double; 
+    cursor: pointer;
+   
+  }
+
+
+/* .compteur {
   font-size: 13.5rem;
   margin: 0;
   min-width: 250px;
   text-align: center;
-  /* Juste pour l'animation de limite atteinte */
+  /* Juste pour l'animation de limite atteinte 
   position: relative;
-}
+} */
 
-.limite-atteinte {
+/* .limite-atteinte {
   color: var(--rouge);
   animation: limite-atteinte linear .2s 3;
 }
@@ -81,4 +91,4 @@ body {
   to {
     left: 0;
   }
-}
+} */
