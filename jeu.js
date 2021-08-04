@@ -16,6 +16,8 @@ roulezDes.addEventListener('click', ()=>{
 rejouer.addEventListener('click', ()=>{
   de1.style.display = 'none'; 
   de2.style.display = 'none'; 
+  points1.textContent = 0;
+  points2.textContent = 0;
 } )
 
 select1.addEventListener('click', ()=>{
